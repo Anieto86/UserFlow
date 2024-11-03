@@ -1,0 +1,119 @@
+{
+  "patient": [
+    {
+      "Patient ID": "12345",
+      "Lab Results": {
+        "Cholesterol": "200 mg/dL",
+        "Blood Pressure": "120/80 mmHg",
+        "Glucose Levels": {
+          "Fasting": "90 mg/dL",
+          "1 Hour": "130 mg/dL",
+          "2 Hours": "110 mg/dL"
+        }
+      },
+      "Body Metrics": {
+        "Height": "180 cm",
+        "Weight": "75 kg",
+        "BMI": "23.1"
+      },
+      "Additional Data": {
+        "Heart Rate": "72 bpm",
+        "Age": "45",
+        "Attending Physician": "Dr. Smith",
+        "Lab Technician": "Mr. Johnson"
+      }
+    },
+    {
+      "Patient ID": "67890",
+      "Lab Results": {
+        "Cholesterol": "210 mg/dL",
+        "Blood Pressure": "130/85 mmHg",
+        "Glucose Levels": {
+          "Fasting": "95 mg/dL",
+          "1 Hour": "140 mg/dL",
+          "2 Hours": "115 mg/dL"
+        }
+      },
+      "Body Metrics": {
+        "Height": "175 cm",
+        "Weight": "68 kg",
+        "BMI": "22.2"
+      },
+      "Additional Data": {
+        "Heart Rate": "75 bpm",
+        "Age": "50",
+        "Attending Physician": "Dr. Williams",
+        "Lab Technician": "Ms. Davis"
+      }
+    },
+    {
+      "Patient ID": "13579",
+      "Lab Results": {
+        "Cholesterol": "190 mg/dL",
+        "Blood Pressure": "125/80 mmHg",
+        "Glucose Levels": {
+          "Fasting": "88 mg/dL",
+          "1 Hour": "135 mg/dL",
+          "2 Hours": "100 mg/dL"
+        }
+      },
+      "Body Metrics": {
+        "Height": "165 cm",
+        "Weight": "60 kg",
+        "BMI": "22.0"
+      },
+      "Additional Data": {
+        "Heart Rate": "70 bpm",
+        "Age": "38",
+        "Attending Physician": "Dr. Brown",
+        "Lab Technician": "Mr. White"
+      }
+    },
+    {
+      "Patient ID": "24680",
+      "Lab Results": {
+        "Cholesterol": "250 mg/dL",
+        "Blood Pressure": "140/90 mmHg",
+        "Glucose Levels": {
+          "Fasting": "110 mg/dL",
+          "1 Hour": "160 mg/dL",
+          "2 Hours": "140 mg/dL"
+        }
+      },
+      "Body Metrics": {
+        "Height": "170 cm",
+        "Weight": "85 kg",
+        "BMI": "29.4"
+      },
+      "Additional Data": {
+        "Heart Rate": "80 bpm",
+        "Age": "55",
+        "Attending Physician": "Dr. Johnson",
+        "Lab Technician": "Ms. Lee"
+      }
+    },
+    {
+      "Patient ID": "98765",
+      "Lab Results": {
+        "Cholesterol": "180 mg/dL",
+        "Blood Pressure": "115/75 mmHg",
+        "Glucose Levels": {
+          "Fasting": "85 mg/dL",
+          "1 Hour": "125 mg/dL",
+          "2 Hours": "105 mg/dL"
+        }
+      },
+      "Body Metrics": {
+        "Height": "160 cm",
+        "Weight": "55 kg",
+        "BMI": "21.5"
+      },
+      "Additional Data": {
+        "Heart Rate": "68 bpm",
+        "Age": "30",
+        "Attending Physician": "Dr. Green",
+        "Lab Technician": "Mr. Garcia"
+      }
+    }
+  ]
+}
