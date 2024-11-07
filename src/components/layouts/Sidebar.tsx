@@ -48,6 +48,11 @@ const drawerList = [
     icon: <ManageAccountsOutlined color="secondary" />,
     route: '/patients',
   },
+  {
+    text: 'Cardio',
+    icon: <ManageAccountsOutlined color="secondary" />,
+    route: '/cardio_patients',
+  },
 ];
 
 // const bottomMenu = [

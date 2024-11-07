@@ -1,4 +1,4 @@
-import { useTheme } from "@mui/material/styles";
+import { useTheme } from '@mui/material/styles';
 
 export const createDefaultComponent = () => {
   const theme = useTheme();
@@ -10,8 +10,8 @@ export const createDefaultComponent = () => {
           font-style: normal;
           font-weight: 400;
           font-display: swap;
-         src: local('Inter'), url('https://fonts.gstatic.com/s/inter/v12/UcCO3Fwr0YyJzBb-UN1MAH2SdL8.woff2') format('woff2');
-        }
+        //  src: local('Inter'), url('https://fonts.gstatic.com/s/inter/v12/UcCO3Fwr0YyJzBb-UN1MAH2SdL8.woff2') format('woff2');
+        // }
         .image-placeholder {
           width: 100%;
           height: auto;
@@ -31,20 +31,20 @@ export const createDefaultComponent = () => {
         columnsManagementHeader: {
           backgroundColor: theme.palette.primary.medium,
           color: theme.palette.primary.contrastText,
-          borderRadius: "8px",
+          borderRadius: '8px',
 
-          "& .MuiInputBase-root.MuiOutlinedInput-root": {
+          '& .MuiInputBase-root.MuiOutlinedInput-root': {
             backgroundColor: theme.palette.grey[100],
           },
-          "& .MuiInputBase-root .MuiOutlinedInput-notchedOutline": {
-            border: "none",
+          '& .MuiInputBase-root .MuiOutlinedInput-notchedOutline': {
+            border: 'none',
           },
         },
 
         columnsManagement: {
-          overflow: "hidden",
-          borderRadius: "8px",
-          "& .MuiTypography-root": { fontSize: "14px", variant: "subtitle1" },
+          overflow: 'hidden',
+          borderRadius: '8px',
+          '& .MuiTypography-root': { fontSize: '14px', variant: 'subtitle1' },
           // "& .MuiFormControlLabel-root": {
           //   "& .MuiCheckbox-root": {
           //     "&.Mui-checked": {
@@ -58,7 +58,7 @@ export const createDefaultComponent = () => {
           // },
         },
         columnsManagementFooter: {
-          "& .MuiTypography-root": { fontSize: "14px", variant: "subtitle1" },
+          '& .MuiTypography-root': { fontSize: '14px', variant: 'subtitle1' },
         },
       },
     },

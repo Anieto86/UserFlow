@@ -1,7 +1,7 @@
-import { Patient } from '../../model/Patient';
+import { Patient } from '../../models/patient';
 import apiSlice from '../apiSlice';
 
-export const patientApi = apiSlice.injectEndpoints({
+const patientApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     getPatients: builder.query<Patient[], void>({
       query: () => ({

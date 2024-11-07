@@ -8,8 +8,8 @@ import {
   Typography,
   InputBase,
   Box,
-  Grid2,
 } from '@mui/material';
+import Grid from '@mui/material/Grid2';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 
 import { grey, neutral, primary } from '../../assets/themes/colors';
@@ -64,7 +64,7 @@ export const Header = () => {
             />
           </Search>
 
-          <Grid2 item display="flex">
+          <Grid container component="div" display="flex">
             <Avatar
               sx={{
                 mr: 3,
@@ -83,7 +83,7 @@ export const Header = () => {
             >
               {testUser}
             </Avatar>
-          </Grid2>
+          </Grid>
         </Toolbar>
         <GreenLine />
       </AppBar>

@@ -1,16 +1,16 @@
-import { CardioPatient } from '../../model/cardioPatient';
+import { CardioPatient } from '../../models/cardioPatients';
 import apiSlice from '../apiSlice';
 
-export const cardioPatientAPI = apiSlice.injectEndpoints({
+const cardioDataAPI = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
-    getPatients: builder.query<CardioPatient, void>({
+    getCardioPatients: builder.query<CardioPatient, void>({
       query: () => ({
         url: 'cardio_patients',
         method: 'GET',
       }),
-      providesTags: ['Cardio Patients'],
+      providesTags: ['CardioData'],
     }),
   }),
 });
 
-export const { useGetPatientsQuery } = cardioPatientAPI;
+export const { useGetCardioPatientsQuery } = cardioDataAPI;
